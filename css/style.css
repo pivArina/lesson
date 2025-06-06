@@ -1,0 +1,153 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Thin.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-SemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-ExtraBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Black.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+/*style header*/
+.header {
+  padding: 16px 0 15px;
+  max-width: 1064px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.menu__list,
+.header-options {
+  display: flex;
+}
+
+.header__logo {
+  margin-left: 83px;
+}
+
+.header-options {
+  margin-left: 355px;
+}
+
+.main__iteam {
+  margin-right: 28px;
+}
+
+.menu__list .main__link {
+  color: rgb(0, 0, 0);
+}
+
+.heder-options__search {
+  margin: 0 7px 0 15.93px;
+}
+
+.heder-options__link {
+  margin-top: 28px;
+}
+
+.content {
+  max-width: 1440px;
+  padding: 90px 188px 89.81px 164px;
+  background-color: #F0EFEB;
+  margin: 0 auto;
+  display: flex;
+}
+.content__img {
+  width: 599px;
+}
+
+.preview h1 {
+  font-family: "Roboto";
+  font-size: 60px;
+  margin-bottom: 42px;
+}
+
+.preview p {
+  font-family: "Roboto";
+  font-size: 24px;
+  margin-bottom: 33px;
+}
+
+.preview_button {
+  font-family: "Roboto";
+  font-size: 17px;
+  padding: 7px 23px 9px 23px;
+  color: #FFFFFF;
+  background: #000000;
+  border-radius: 100px;
+  width: 129px;
+}
