@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat/static/Montserrat-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat/static/Montserrat-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('../fonts/DM_Sans/static/DMSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('../fonts/DM_Sans/static/DMSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.header {
+    min-width: 1200px;
+    display: flex;
+    margin: 4px auto;
+    width: 100%;
+    margin-bottom: 26px;
+}
+
+.header__img {
+    min-width: 147px;
+    margin-right: 217px;
+}
+
+.menu__list {
+    display: flex;
+    margin-right: 286px;
+    font-size: 16px;
+}
+
+.main__iteam {
+    margin-right: 50px;
+}
+
+.main__link {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.header__search {
+    margin-right: 30px;
+    background: none;
+}
+
+.header__menu {
+    margin-right: 0px;
+    background: none;
+}
+
+.main {
+    max-width: 1200px;
+}
+
+.main__content {
+    display: flex;
+}
+
+.main__div {
+    background-color: #154444;
+    padding: 101px 18px 137px 100px;
+}
+
+.main__bg-image {
+    max-width: 411px;
+}
+
+.main__title {
+    color: #FFFFFF;
+    max-width: 671px;
+    font-size: 56px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.main__text-description {
+    color: #FFFFFF;
+    max-width: 488px;
+    font-size: 20px;
+    margin-bottom: 37px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+}
+
+.main__link-more {
+    background-color: #FFFFFF;
+    padding: 15.5px 25.21px 15.5px 25.79px;
+    color: #154444;
+    font-size: 20px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+}
