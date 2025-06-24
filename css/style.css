@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__title {
+    margin-bottom: 26px;
+    font-size: 40px;
+}
+
+.main__line {
+    background-color: #2B9AD6;
+    height: 4px;
+    width: 5%;
+    margin-bottom: 60px;
+}
+
+.main__div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main__div-img {
+    position: relative;
+    display: inline-block;
+    max-width: 293px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.div__img {
+    position: absolute;
+    max-width: 220px;
+    object-fit: cover;
+    transition: all 0.3s ease;
+    z-index: 1;
+}
+
+.hover-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    z-index: 1;
+}
+
+.main__div-img:hover .div__img {
+    opacity: 0;
+}
+
+.main__div-img:hover .hover-image {
+    opacity: 1;
+    border-radius: 1px;
+    transform: scale(1.05);
+}
+
+.main__div-img:hover {
+    background: linear-gradient(#00277B, #0553B1);
+}
+
+.span_text,
+.p_text {
+    position: relative;
+    z-index: 2;
+    transition: color 0.3s ease;
+}
+
+.main__div-img:hover .span_text,
+.main__div-img:hover .p_text {
+    color: #FFFFFF;
+}
+
+.div__img-min {
+    position: absolute;
+    z-index: 3;
+    bottom: 20px;
+    right: 20px;
+    transition: all 0.3s ease;
+}
+
+
+.text-content {
+    z-index: 3;
+    position: relative;
+}
+
+.div__img-min {
+    position: absolute;
+    z-index: 3;
+    bottom: 20px;
+    right: 20px;
+    transition: all 0.3s ease;
+}
+
+.div__img-min {
+    position: absolute;
+    z-index: 2;
+    top: 159px;
+    left: 149px;
+}
+
+.span_text {
+    font-size: 24px;
+    color: #194F94;
+    z-index: 2;
+}
+
+.p_text {
+    font-size: 17px;
+    color: #5F5F5F;
+    margin-bottom: 104px;
+    z-index: 2;
+}
