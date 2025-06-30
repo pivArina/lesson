@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>lesson-7</title>
+</head>
+
+<body>
+    <section>
+        <div class="title">
+            <h1>Форма заявки на работу в зоопарке</h1>
+            <i>Пожалуйста, заполните форму.Обязательные поля помечены <span class="star">*</span></i>
+        </div>
+        <form class="form">
+            <fieldset class="kontact__information">
+                <legend>Контактная информация</legend>
+                <label for="user_name">
+                    <span>Имя<span class="star">*</span></span>
+                    <input type="text" id="user_name" required>
+                </label>
+                <label for="telephone">
+                    <span>Телефон</span>
+                    <input type="tel" id="telephone">
+                </label>
+                <label for="user_email">
+                    <span>Email<span class="star">*</span></span>
+                    <input type="email" id="user_email" required>
+                </label>
+            </fieldset>
+            <fieldset class="personal__information">
+                <legend>Персональная информация</legend>
+                <label for="number">
+                    <span>Возраст<span class="star">*</span></span>
+                    <input type="number" id="myNumber" min="5" max="100" required>
+                </label>
+                <label for="Gender">
+                    <span>Пол</span>
+                    <select id="Gender" name="Gender">
+                        <option value="man">Мужчина</option>
+                        <option value="woman">Женщина</option>
+                    </select>
+                </label>
+                <label for="qualities">
+                    <span>Перечислите личные качества</span>
+                    <textarea id="qualities" name="qualities"></textarea>
+                </label>
+            </fieldset>
+            <fieldset class="animal__checkbox">
+                <legend>Выберите ваших любимых животных</legend>
+                <div class="div__animal-checkbox">
+                    <div>
+                        <input type="checkbox" id="zebra">
+                        <label for="zebra">Зебра</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="elephant">
+                        <label for="elephant">Слон</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="cat">
+                        <label for="cat">Кошак</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="antelope">
+                        <label for="antelope">Антилопа</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="anaconda">
+                        <label for="anaconda">Анаконда</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="pigeon">
+                        <label for="pigeon">Голубь</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="human">
+                        <label for="human">Человек</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="crab">
+                        <label for="crab">Краб</label>
+                    </div>
+                </div>
+            </fieldset>
+            <button type="submit" class="button__form">Отправить информацию</button>
+        </form>
+    </section>
+</body>
+
+</html>

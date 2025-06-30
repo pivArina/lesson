@@ -1,0 +1,86 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 0 20px;
+}
+
+.star {
+    color: red;
+    display: inline;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+
+.kontact__information {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+.personal__information {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+.div__animal-checkbox {
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.animal__checkbox {
+    margin-bottom: 20px;
+}
+
+#qualities {
+    resize: none;
+}
+
+.button__form {
+    max-width: 160px;
+    padding: 7px 2px 7px 2px;
+}
+
+label span {
+    display: inline-block;
+    width: 300px;
+}
+
+#user_name,
+#telephone,
+#user_email,
+#myNumber,
+#Gender,
+#qualities {
+    width: 160px;
+}
